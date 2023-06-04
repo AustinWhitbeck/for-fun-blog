@@ -4,6 +4,7 @@
   "rules": {
     "react/jsx-props-no-spreading": "off",
     "linebreak-style": "off",
-    "no-extraneous-dependencies": "off"
+    "no-extraneous-dependencies": "off",
+    "react/function-component-definition": "off"
   }
 }
