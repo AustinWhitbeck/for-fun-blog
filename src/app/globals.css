@@ -105,3 +105,13 @@ a {
     color-scheme: dark;
   }
 }
+
+ul {
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
