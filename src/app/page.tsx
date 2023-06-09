@@ -1,9 +1,7 @@
 import React from 'react';
 
-export const Home = async () => (
+export default async () => (
   <main>
-    <h1>{'Austin\'s Blog'}</h1>
+    <h1>Austin Blog</h1>
   </main>
 );
-
-export default Home;

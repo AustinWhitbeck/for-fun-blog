@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: { params: { pokemonNumber: st
   };
 }
 
-export const RandomPokemon = async ({ params }: { params: { pokemonNumber: string } }) => {
+export default async ({ params }: { params: { pokemonNumber: string } }) => {
   const { pokemonNumber } = params;
   const randomPokemonData = await getRandomPokemonData({ number: parseInt(pokemonNumber, 10) });
   const { name, sprites } = randomPokemonData;
@@ -50,5 +50,3 @@ export const RandomPokemon = async ({ params }: { params: { pokemonNumber: strin
     </div>
   );
 };
-
-export default RandomPokemon;
